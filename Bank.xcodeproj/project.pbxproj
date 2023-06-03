@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7726FCB32A2A2006007A7B9C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726FCB22A2A2006007A7B9C /* main.swift */; };
+		772D2A922A2BCA4E000DC05C /* enum .swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D2A912A2BCA4E000DC05C /* enum .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		7726FCAF2A2A2006007A7B9C /* Bank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bank; sourceTree = BUILT_PRODUCTS_DIR; };
 		7726FCB22A2A2006007A7B9C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		772D2A912A2BCA4E000DC05C /* enum .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "enum .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				7726FCB22A2A2006007A7B9C /* main.swift */,
+				772D2A912A2BCA4E000DC05C /* enum .swift */,
 			);
 			path = Bank;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7726FCB32A2A2006007A7B9C /* main.swift in Sources */,
+				772D2A922A2BCA4E000DC05C /* enum .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
