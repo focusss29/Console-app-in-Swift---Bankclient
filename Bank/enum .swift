@@ -1,6 +1,7 @@
-enum StatusCard: String {
-    case available = "Доступна"
-    case blocked = "Заблокирована"
+enum Status: String {
+    case available = "Доступен"
+    case blocked = "Заблокирован"
+    case closed = "Закрыт"
 }
 enum Currency: String {
     case kzt = "₸"
