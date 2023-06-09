@@ -46,6 +46,7 @@ struct BankApp {
             randomIban += ibanGenerate
         }
         iban = "KZ77" + randomIban
+        print("--------------------")
         print("Ваш счет создан! IBAN: \(iban)")
         let account = BankAccount(iban: iban, status: .active, balance: 10_000.00, currency: currency )
         accounts.append(account)
@@ -53,6 +54,7 @@ struct BankApp {
     }
     mutating func infoAccount() {
         print("Информация о счетах:")
+        print("--------------------")
         for (index, account) in accounts.enumerated() {
             print("Счет №\(index + 1)")
             print("IBAN: \(account.iban)")

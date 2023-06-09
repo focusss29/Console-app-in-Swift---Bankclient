@@ -5,7 +5,7 @@ var bank = BankApp(accounts: [], cards: [])
 var greeting: String = "Добро пожаловать в FocusBank!"
 var start: Bool = true
 
-
+print(greeting)
 while start {
     print("Выберите операцию:")
     print("1. Создание счета")
