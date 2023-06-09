@@ -1,9 +1,9 @@
 enum Status: String {
-    case available = "Доступен"
+    case active = "Активен"
     case blocked = "Заблокирован"
     case closed = "Закрыт"
 }
-enum Currency: String {
+enum Currency: String, CaseIterable {
     case kzt = "₸"
     case usd = "$"
     case euro = "€"
